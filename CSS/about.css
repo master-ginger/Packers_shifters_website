@@ -1,0 +1,368 @@
+@font-face {
+    font-family: satoshi;
+    src: url(/font/Satoshi-Regular.otf);
+}
+
+@font-face {
+    font-family: abclight;
+    src: url(/font/Satoshi-Light.otf);
+}
+
+@font-face {
+    font-family: satoshiB;
+    src: url(/font/Satoshi-Black.otf);
+}
+
+@font-face {
+    font-family: satoshiM;
+    src: url(/font/Satoshi-Medium.otf);
+}
+
+@font-face {
+    font-family: promptM;
+    src: url(/font/Prompt-Medium.ttf);
+}
+
+@font-face {
+    font-family: promptL;
+    src: url(/font/Prompt-ExtraLight.ttf);
+} 
+
+nav{
+    font-size: 20px;
+    font-family: satoshiM;
+    font-weight: bold;
+}
+
+.quote-btn{
+    background-color: #EEC600;
+    border: none;
+    border-radius: 3px;
+    font-family: satoshiM;
+    padding-left:15px ;
+    padding-right:15px ;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+header{
+    background-image: url('/images/abouthead.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 100%;
+    font-family: impact;
+    color: #ffffff;
+
+}
+
+.header2{
+    width: 65%;
+    height: 100%;
+    background-image: url(/images/yellow.png);
+}
+
+
+
+.header21{
+    width:93%;
+    height: 100%;
+    background-image: url(/images/blue.png);
+    text-align: center;
+}
+@media screen and (max-width:650px) {
+    .header2{
+        background-color: #EEC600;
+        width: 100%;
+        background-image: none;
+    }
+
+    .header21{
+        width: 80%;
+        background-image: none;
+        background-color: #1B3358;
+        
+    }
+}
+.here{
+    text-align: center;
+    font-family: satoshiB;
+    font-size: 50px;
+}
+
+.aboutus{
+    text-align: center;
+    font-family: satoshiB;
+    font-size: 80px;
+}
+
+#part1{
+    text-align: center;
+    font-family: satoshi;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.circ1{
+    height: 200px;
+    width: 200px;
+    background-color: #EEC600;
+    border-radius: 100%;
+}
+
+
+.bharat{
+    text-align: center;
+    font-family: satoshi;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.bh2{
+    font-family: abclight;
+    font-size: 30px;
+    text-align: center;
+}
+
+#part4{
+    background-color: #194569;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.im1{
+    width: 90%;
+    height: auto;
+    border: 3px solid #EEC600;
+    border-radius:100% ;
+
+}
+
+.t1{
+    font-family: satoshi;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-position: under;
+}
+
+.t2{
+    font-family: abclight;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 25px;
+}
+
+@media screen and (max-width:420px){
+    .t1{
+        font-size: 25px;
+    }
+
+    .t2{
+        font-size: 15px;
+    }
+    .bharat{
+        font-size: 15px;
+    }
+
+    .bh2{
+        font-size: 10px ;
+    }
+
+    #part1{
+        font-size: 25px;
+    }
+}
+
+.part5{
+    background-image: url('/images/part5.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+
+}
+
+.part51{
+    background-color: #194569;
+    width: 90%;
+    height: 80%;
+    
+}
+
+.part52{
+    margin-top: 20px;
+    background-color: #EEC600;
+    height: 25%;
+    width: 20%;
+    border: 10px solid #ffffff;   
+    position: absolute;
+    
+}
+
+.t30{
+    font-family: satoshiM;
+    font-size: 60px;
+    color: #1B3358;
+}
+
+.yoe{
+    font-family: satoshiM;
+    color: #194569;
+    font-size: 30px;
+}
+
+.percent{
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+    height: 45%;
+    color: #EEC600;
+    margin-right:20px ;
+    border-top-left-radius:80px ;
+    border-top-right-radius: 80px;
+    border: 7px solid #EEC600;
+    border-bottom: 0;
+}
+
+
+.typee{
+    font-family: satoshi;
+    font-size: 35px;
+    color: #FFFFFF;
+    text-align: start;
+    
+}
+
+@media screen and (max-width:450px){
+    .percent{
+        font-size: 25px;
+        margin-right: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        width: 30%;
+        height: 75%;
+        border-top-left-radius:150px ;
+        border-top-right-radius: 150px;
+        border-bottom: 0;
+        
+    }
+    .typee{
+        font-size: 15px;
+        width: 60%;
+    }
+
+    .t30{
+        font-size: 30px;
+    }
+    
+    .yoe{
+        font-size: 10px;
+    }
+
+    .part5{
+        height: 60vh;
+    }
+
+    .part52{
+        width: 30%;
+        height: 12%;
+    }
+
+    .part51{
+        height: 90%;
+    }
+}
+
+@media screen and (min-width:451px) and (max-width:992px){
+    .percent{
+        font-size: 45px;
+        margin-right: 20px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        width: 28%;
+        height: 80%;
+        border-top-left-radius:150px ;
+        border-top-right-radius: 150px;
+        border-bottom: 0;
+        
+    }
+    .typee{
+        font-size: 35px;
+        width: 60%;
+    }
+
+    .t30{
+        font-size: 50px;
+    }
+    
+    .yoe{
+        font-size: 25px;
+    }
+
+    .part5{
+        height: 60vh;
+    }
+
+    .part52{
+        width: 30%;
+        height: 12%;
+    }
+
+    .part51{
+        height: 90%;
+    }
+}
+
+.footer{
+    background-color: #194569;
+    
+}
+
+#foot1{
+    color: #ffffff;
+}
+
+ul{
+    list-style: none;
+    text-align: start;
+    font-family: promptL;
+    font-size: 25px;
+}
+
+.fh1{
+    font-family: promptM;
+    font-size: 30px;
+}
+
+@media screen and (max-width:500px) {
+    #foot1{
+        font-size: 20px;
+    }
+    ul{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:800px) and (min-width:500px) {
+    #foot1{
+        font-size: 25px;
+    }
+    ul{
+        font-size: 20px;
+    }
+}
+
+.soc{
+    background-color: #EEC600;
+    margin-left: 10px;
+    padding: 8px;
+    border-radius: 3px;
+    
+}
+
+.soc:hover{
+    box-shadow: 3px 3px 10px black;
+}
